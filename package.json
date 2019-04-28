@@ -1,13 +1,16 @@
 {
   "name": "shopifyDeleteTool",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Shopify app designed to clear a store of products or customers.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ashley Fulks",
   "license": "ISC",
   "dependencies": {
     "next": "^8.1.0",
